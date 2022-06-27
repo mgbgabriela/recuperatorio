@@ -70,6 +70,7 @@ let total: number = cargarCompra(
   subtotales
 );
 console.log("El total es " + total);
+// Realizo función para mostrar beneficios
 
 let mostrarBeneficio = (total: number) => {
   if (total >= 3000) {
